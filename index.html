@@ -2893,14 +2893,6 @@ function themeColors() {
   };
 }
 
-// ── ONE-SHOT FACTORY RESET (injected) ──
-// Cancella movimenti e storico import; le categorie restano.
-localStorage.removeItem('bt_movimenti');
-localStorage.removeItem('bt_imports');
-localStorage.removeItem('bt_entrate');
-localStorage.removeItem('bt_revisione');
-// ─────────────────────────────────────────
-
 loadState();
 updateTargetLabel(); // sync the label in the dashboard header
 
